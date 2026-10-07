@@ -1,10 +1,10 @@
 # Render Cursor Plugins
 
-Cursor Marketplace plugins for deploying, debugging, and monitoring applications on [Render](https://render.com).
+Cursor Marketplace plugins for deploying and managing applications on [Render](https://render.com), including running scripts and tests in Render Sandboxes.
 
 ## Plugins
 
-- **render**: Rules, skills, agents, commands, hooks, and MCP config for the full Render workflow. See [`plugins/render/README.md`](plugins/render/README.md).
+- **render**: Rules, skills, agents, commands, hooks, and MCP config for deployment, debugging, monitoring, and sandbox tasks. See [`plugins/render/README.md`](plugins/render/README.md).
 
 ## Skills sync
 
@@ -13,10 +13,6 @@ Skills in `plugins/render/skills/` are synced automatically from [render-oss/ski
 ```bash
 ./scripts/sync-skills.sh
 ```
-
-## Adding plugins
-
-To add more plugins, see [`docs/add-a-plugin.md`](docs/add-a-plugin.md).
 
 ## Validation
 
